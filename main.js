@@ -26,9 +26,9 @@ function modelLoaded() {
 
 function speak(){
     var synth = window.speechSynthesis;
-    prediction1 ="The first prediction is " + prediction1;
-    prediction2 ="And the second prediction is " + prediction2;
-    var utterThis = new SpeechSynthesisUtterance(prediction1 + prediction2);
+    result_hand_getsure_name ="The first prediction is " + result_hand_getsure_name;
+   result_hand_getsure_name2 ="And the second prediction is " + result_hand_getsure_name2;
+    var utterThis = new SpeechSynthesisUtterance(result_hand_getsure_name + result_hand_getsure_name2);
     synth.speak(utterThis);
 }
 function gotResult(error, results) {
